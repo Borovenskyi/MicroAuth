@@ -18,9 +18,6 @@
              height="72">
         <h1 class="h3 mb-3 font-weight-normal">Микро авторизация</h1>
         <h1 class="h3 mb-3 font-weight-normal">Выполните вход</h1>
-        <div class="err">
-            <h1 class="h5 mb-3 font-weight-normal"><?php if (isset($errmsg)) echo $errmsg; ?></h1>
-        </div>
         <label for="text" class="sr-only">Введите имя</label>
         <input type="text" class="form-control" placeholder="Имя пользователя" name="name" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
